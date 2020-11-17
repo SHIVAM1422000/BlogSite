@@ -267,9 +267,9 @@ app.get("/wrong",function(req,res){
 	res.render("wrong");
 })
 
-// app.listen("3000",function(){
-// 	console.log("Server Started");
-// });
+app.listen("3000",function(){
+	console.log("Server Started");
+});
 
 // app.listen(process.env.port,process.env.ip);
 
